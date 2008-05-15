@@ -1,0 +1,34 @@
+Package: extarrows (extensible arrows)
+
+Version:
+	* 1.0b (2008/05/15)
+		Thanks to Herbert Voss <Herbert.Voss@FU-Berlin.DE>
+	* 1.0a (2004/11/05)
+
+Author: kyanh <xkyanh@gmail.com>
+
+License: LGPL
+
+This package provides some extensible arrows in maths. mode
+    (more than \xleftarrow, \xrightarrow, ...)
+
+    \xlongequal
+    \xLongleftarrow
+    \xLongrightarrow
+    \xLongleftrightarrow
+    \xLeftrightarrow
+
+    \xlongleftrightarrow
+    \xleftrightarrow
+    \xlongleftarrow
+    \xlongrightarrow
+
+Examples:
+    extarrows-test.tex (source)
+    extarrows-test.pdf (demonstration)
+
+--
+Huynh Ky Anh
+Vietnamese TeX Users Group
+http://kyanh.net/
+http://viettug.org/
