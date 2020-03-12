@@ -1,9 +1,17 @@
+% Purpose : Provide some extensible arrows in math mode.
+%           (Sample source file)
+% Author  : Ky-Anh Huynh
+% License : LGPL
+
 \documentclass[10pt, a4paper, oneside]{article}
 
 \usepackage{extarrows}
 
+% Define a simple macro for testing
 \def\test#1/{%
-	\texttt{\textbackslash #1:}\qquad& A\csname #1\endcsname[\text{to love}]{\text{we love}}Z}
+	\texttt{\textbackslash #1:}\qquad& A\csname #1\endcsname[\text{sub-script}]{\text{super-script}}Z}
+
+% Test command without sub/super-scripts
 \def\tfst #1/{%
 	\texttt{\textbackslash #1:}\qquad& A\csname #1\endcsname[]{}Z}
 
@@ -11,14 +19,12 @@
 \section{Syntax}
 
 \begin{verbatim}
+\arrowname{super-script}
 \arrowname[sub-script]{super-script}
 \end{verbatim}
 
 \noindent
-\texttt{arrowname} is \texttt{xlongequal}, \texttt{xLongleftarrow}, etc.
-
-\noindent
-The parameter \verb"[sub-script]" is optional.
+\texttt{arrowname} is one of known arrow command, for example, \texttt{xlongequal}, \texttt{xLongleftarrow},\ldots
 
 \section{Examples}
 \begin{align}
