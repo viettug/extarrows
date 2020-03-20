@@ -25,6 +25,10 @@ The list of new arrow commands:
 * Version 1.0b  (2008/05/15): Thanks to Herbert Voss <Herbert.Voss@FU-Berlin.DE>
 * Version 1.0a  (2004/11/05): Initial version
 
+## Links
+
+* Package page on CTAN.org: https://ctan.org/pkg/extarrows
+
 ## Author
 
 Ky-Anh Huynh <xkyanh@gmail.com>
